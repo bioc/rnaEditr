@@ -1,6 +1,6 @@
 Package: rnaEditr
 Title: Statistical analysis of RNA editing sites and hyper-editing regions
-Version: 1.4.0
+Version: 1.5.0
 Authors@R: c(
   person("Lanyu", "Zhang", email = "jennyzly2016@gmail.com", role = c("aut", "cre")),
   person("Gabriel", "Odom", email = "gabriel.odom@fiu.edu", role = c("aut")),
