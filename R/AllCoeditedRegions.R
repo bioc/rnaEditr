@@ -150,7 +150,7 @@ AllCoeditedRegions <- function(regions_gr,
       #   that there will be an overlap between the combined ranges. This will 
       #   never be the case for us. The "c" method called here eventually 
       #   dispatches to this merge function internally. See below for more 
-      #   information:https://rdrr.io/bioc/GenomeInfoDb/src/R/Seqinfo-class.R
+      #   information:https://rdrr.io/bioc/Seqinfo/src/R/Seqinfo-class.R
       out <- suppressWarnings(Reduce("c", result_ls))
       
     } else {

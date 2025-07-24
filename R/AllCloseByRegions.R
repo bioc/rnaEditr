@@ -109,7 +109,7 @@ AllCloseByRegions <- function(regions_gr,
     #   there will be an overlap between the combined ranges. This will never
     #   be the case for us. The "c" method called here eventually dispatches to
     #   this merge function internally. See below for more information:
-    # https://rdrr.io/bioc/GenomeInfoDb/src/R/Seqinfo-class.R
+    # https://rdrr.io/bioc/Seqinfo/src/R/Seqinfo-class.R
     suppressWarnings(Reduce("c", closeByRegions_ls))
   
 }

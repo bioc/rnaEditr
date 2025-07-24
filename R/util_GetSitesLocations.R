@@ -23,7 +23,7 @@
 #' 
 #' @importFrom GenomicRanges makeGRangesFromDataFrame
 #' @importFrom IRanges subsetByOverlaps
-#' @importFrom GenomeInfoDb seqnames
+#' @importFrom Seqinfo seqnames
 #' @importFrom BiocGenerics start
 #' 
 #' @export
